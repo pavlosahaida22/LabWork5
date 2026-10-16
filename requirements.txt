@@ -1,0 +1,11 @@
+streamlit>=1.50
+fastembed>=0.5
+faiss-cpu
+rank-bm25
+pypdf
+langchain-text-splitters
+numpy
+pandas
+google-genai
+anthropic
+openai

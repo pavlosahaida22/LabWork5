@@ -1,0 +1,9 @@
+{
+ "embedding_backend": "fastembed",
+ "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+ "n_chunks": 26,
+ "n_documents": 4,
+ "created": "2026-10-17 00:09:41",
+ "chunk_size": 400,
+ "chunk_overlap": 60
+}

@@ -1,0 +1,16 @@
+[
+  {"id": 1,  "type": "single", "question": "Який запас ходу має VoltRide X в режимі Eco?", "expected_sources": ["01_posibnyk_korystuvacha.md"], "reference": "до 70 км"},
+  {"id": 2,  "type": "single", "question": "Як довго заряджати батарею до повної ємності?", "expected_sources": ["01_posibnyk_korystuvacha.md"], "reference": "близько 5 годин"},
+  {"id": 3,  "type": "single", "question": "Який тиск має бути в шинах?", "expected_sources": ["02_obslugovuvannya.md"], "reference": "2,5–3,5 бар"},
+  {"id": 4,  "type": "single", "question": "Що означає помилка E03 і що робити?", "expected_sources": ["04_bezpeka_ta_nespravnosti.md"], "reference": "перегрів мотора, охолонути 20 хв"},
+  {"id": 5,  "type": "single", "question": "Скільки місяців гарантії на раму та мотор?", "expected_sources": ["03_garantiya.md"], "reference": "24 місяці"},
+  {"id": 6,  "type": "single", "question": "Чи можна мити велосипед мийкою високого тиску?", "expected_sources": ["02_obslugovuvannya.md"], "reference": "ні"},
+  {"id": 7,  "type": "multi",  "question": "Скільки діє гарантія на батарею і як її правильно зберігати, якщо не користуватися велосипедом?", "expected_sources": ["03_garantiya.md", "02_obslugovuvannya.md"], "reference": "12 міс./500 циклів; 50–70 %, 10–20 °C, підзарядка раз на 2 міс."},
+  {"id": 8,  "type": "multi",  "question": "Мотор перегрівся через перевантаження – що робити і чи буде це гарантійним випадком?", "expected_sources": ["04_bezpeka_ta_nespravnosti.md", "03_garantiya.md"], "reference": "охолонути 20 хв; перевищення 120 кг – підстава для відмови"},
+  {"id": 9,  "type": "multi",  "question": "Коли треба міняти гальмівні колодки і чи покриває їх заміну гарантія?", "expected_sources": ["02_obslugovuvannya.md", "03_garantiya.md"], "reference": "при товщині < 1,5 мм; не покриваються гарантією"},
+  {"id": 10, "type": "multi",  "question": "Чи можна взяти батарею в літак і яка її ємність?", "expected_sources": ["04_bezpeka_ta_nespravnosti.md", "01_posibnyk_korystuvacha.md"], "reference": "374 Вт·год, в літаку заборонено"},
+  {"id": 11, "type": "absent", "question": "Скільки коштує електровелосипед VoltRide X?", "expected_sources": [], "reference": "інформації немає"},
+  {"id": 12, "type": "absent", "question": "Які кольори рами доступні для замовлення?", "expected_sources": [], "reference": "інформації немає"},
+  {"id": 13, "type": "absent", "question": "Як налаштувати GPS-трекер на велосипеді?", "expected_sources": [], "reference": "інформації немає"},
+  {"id": 14, "type": "absent", "question": "Хто є президентом Франції?", "expected_sources": [], "reference": "поза темою – інформації немає"}
+]
